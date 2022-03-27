@@ -1,0 +1,81 @@
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+}
+.player{
+  width: 380px;
+  padding: 25px 30px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+  background: rgb(91, 189, 255);
+  
+}
+.wrapper i{
+  cursor: pointer;
+}
+
+
+.title {
+  margin-top: 0;
+  text-align: center;
+}
+
+
+.cover {
+  width: 300px;
+  height: auto;
+  border-radius: .3rem;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+
+.progress-container {
+  height: .6rem;
+  background-color: black;
+  margin-bottom: 1rem;
+}
+
+.progress {
+  background-color: white;
+  width: 40%;
+  height: 100%;
+}
+
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.controls button {
+  background-color: transparent;
+  border: none;
+}
+
+.controls i {
+  font-size: 1.7rem;
+  color: white;
+}
+
+
+.songs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.songs li {
+  margin-bottom: 1rem;
+}
+
+.songs a {
+  color: lightgray;
+  text-decoration: none;
+}
